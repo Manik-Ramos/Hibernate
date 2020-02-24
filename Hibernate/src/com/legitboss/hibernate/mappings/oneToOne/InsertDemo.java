@@ -24,9 +24,9 @@ public class InsertDemo {
 			//Create the Instructor & Instructor Detail Object
 			System.out.println("***Creating the Objects***");
 			
-			Instructor instructor = new Instructor("Legit2","Boss2","legit.boss2@gmail.com");
+			Instructor instructor = new Instructor("Legit","Boss","legit.boss@gmail.com");
 			
-			InstructorDetail instructorDetail = new InstructorDetail("legitimate2Channel", "being Legit2");
+			InstructorDetail instructorDetail = new InstructorDetail("legitimateChannel", "being Legit");
 			
 			//Setting Properties
 			instructor.setInstructorDetail(instructorDetail);
